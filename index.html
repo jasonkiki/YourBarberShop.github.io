@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourBarberShop</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; color: #333; }
+    header { background: #111; color: white; padding: 20px; text-align: center; }
+    section { padding: 20px; }
+    .services, .booking, .contact { background: white; margin: 20px auto; max-width: 600px; border-radius: 8px; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { margin-top: 0; }
+    ul { padding-left: 20px; }
+    input, textarea, button { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #111; color: white; cursor: pointer; }
+    button:hover { background: #444; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YourBarberShop</h1>
+    <p>Open Daily from 8AM to 8PM</p>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Haircut</li>
+      <li>Beard Trim</li>
+      <li>Haircut + Beard</li>
+      <li>Skin Fade</li>
+      <li>Children's Haircut</li>
+      <!-- No hair coloring -->
+    </ul>
+  </section>
+
+  <section class="booking">
+    <h2>Book Your Appointment</h2>
+    <form action="https://formsubmit.co/70479952@whatsapp.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <textarea name="service" placeholder="What haircut do you want?" required></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+    <p>We’ll message you on WhatsApp to confirm your appointment.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/96170479952" target="_blank">+961 70 479 952</a></p>
+  </section>
+</body>
+</html>
